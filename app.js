@@ -34,6 +34,7 @@ app.get('/health', (req, res) => {
 
 app.get('/version', (req, res) => {
   res.send('1') // change this string to ensure a new version deployed
+  // made a change for testing exercise 11.22 (Protect master and ask for pull request)
 })
 
 app.use(middleware.unknownEndpoint)
